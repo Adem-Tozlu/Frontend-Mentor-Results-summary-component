@@ -98,4 +98,8 @@ h2{
     color: var(--color-white);
     
 }
-
+p{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}

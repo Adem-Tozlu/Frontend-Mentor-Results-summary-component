@@ -31,18 +31,18 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-font-size: 13px;
+font-size: 18px;
 width: 95vw;
 height: 95vh;
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-background-color: var(--color-pale-blue);
+background-color: var(--color-persian-blue);
 }
 
 main{
- 
+height: max-content;
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
@@ -52,8 +52,9 @@ main{
 z-index: 1;
     background: linear-gradient(var(--color-violet-blu),var(--color-light-royal-blue));          
     border-radius: 20px;
-    width: 12rem;
-    height: max-content;
+    width: 15rem;
+    
+   height:22rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -77,8 +78,8 @@ z-index: 1;
     justify-content: center;
     align-items: center;
   text-align: center;
-  height: 8rem;
-  width: 8rem;
+  height: 9rem;
+  width: 9rem;
   background: linear-gradient(var(--color-violet-blue),var(--color-light-royal-blu));  
  
     color: var(--color-light-lavender);
@@ -93,14 +94,14 @@ z-index: 1;
 }
 
 .summary{
-   
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: baseline;
     justify-content: center;
     padding: 1.5rem;
    height: max-content;
-   
+   height: 23rem;
   margin-left: -15px;
   margin-right: 10px;
   
@@ -110,7 +111,7 @@ z-index: 1;
 }
 .summary h2{
 margin-top: 0;
-font-size: 16px;
+font-size: 20px;
 font-weight: 700;
 color: var(--color-dark-gray-blue);
    
@@ -125,8 +126,8 @@ padding-left: 0.5rem;
     margin-left: 1rem;
     display: flex;
     margin-top: 0;
-width: 11rem;
-height: 2.5rem;
+width: 15rem;
+height: 3rem;
 border-radius: 7px;
     flex-direction: row;
     align-items: center;
@@ -173,8 +174,8 @@ border-radius: 7px;
     }
     button{
         margin-top: 1rem;
-        width: 12.5rem;
-        height: 2.5rem;
+        width: 15.5rem;
+        height: 3rem;
         margin-bottom: 0.5rem;
         border-radius: 2rem;
         background-color: var(--color-dark-gray-blue);
